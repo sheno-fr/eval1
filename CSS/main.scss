@@ -1,0 +1,44 @@
+body{
+    background-color: lightblue;
+}
+header{
+
+    .img1{
+        margin-left: 50px;
+        height: auto;
+        width: 400px;
+    }
+
+    .buttom{
+        margin: auto;
+    }
+}
+
+main{
+
+    .navbar{
+        margin:auto;
+    }
+
+    .img2{
+        margin: auto;
+    }
+
+    h2{
+        margin-top: 50px;
+        text-decoration: underline;
+        color: blue;
+        font-size: 2.5em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    .img3{
+        float: left;  
+        vertical-align: middle;
+    }
+   
+
+}

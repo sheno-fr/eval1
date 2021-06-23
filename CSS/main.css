@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+}
+
+header .img1 {
+  margin-left: 50px;
+  height: auto;
+  width: 400px;
+}
+
+header .buttom {
+  margin: auto;
+}
+
+main .navbar {
+  margin: auto;
+}
+
+main .img2 {
+  margin: auto;
+}
+
+main h2 {
+  margin-top: 50px;
+  text-decoration: underline;
+  color: blue;
+  font-size: 2.5em;
+}
+
+main p {
+  font-size: 1.5em;
+}
+
+main .img3 {
+  float: left;
+  vertical-align: middle;
+}
