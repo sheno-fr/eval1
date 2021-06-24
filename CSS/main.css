@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-image: url(/eval/img/sheno.jpg);
 }
 
 header .img1 {
@@ -20,8 +20,11 @@ main .img2 {
   margin: auto;
 }
 
-main h2 {
+main .ville {
   margin-top: 50px;
+}
+
+main h2 {
   text-decoration: underline;
   color: blue;
   font-size: 2.5em;
@@ -31,7 +34,35 @@ main p {
   font-size: 1.5em;
 }
 
-main .img3 {
+main .picture-left {
   float: left;
-  vertical-align: middle;
+}
+
+main .div-categoryContainer {
+  padding: 10px;
+}
+
+main .paragraph-right {
+  margin-top: 100px;
+  font-size: 1.5em;
+}
+
+main .picture-right {
+  width: 400px;
+  height: 400px;
+  float: right;
+  padding-bottom: 20px;
+}
+
+main .paragraph-left {
+  margin-top: 100px;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+main .card {
+  background-color: transparent;
+  -webkit-box-shadow: 4px 4px 10px 0 black;
+          box-shadow: 4px 4px 10px 0 black;
+  padding: 10px;
 }
