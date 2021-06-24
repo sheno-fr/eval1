@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-image: url(/eval/img/sheno.jpg);
 }
 header{
 
@@ -23,22 +23,51 @@ main{
     .img2{
         margin: auto;
     }
+    .ville{
+        margin-top: 50px;
+    }
 
     h2{
-        margin-top: 50px;
+        
         text-decoration: underline;
         color: blue;
         font-size: 2.5em;
     }
-
+    
     p{
         font-size: 1.5em;
     }
-
-    .img3{
-        float: left;  
-        vertical-align: middle;
+    .picture-left{
+        float: left;
     }
-   
+     
+    .div-categoryContainer{
+        padding: 10px;
+    }
+     
+    .paragraph-right {
+        margin-top : 100px;
+        font-size: 1.5em;
+    }
+    .picture-right{
+        width: 400px;
+        height: 400px;
+        float: right;
+        padding-bottom: 20px;
+    }
+    .paragraph-left {
+        margin-top : 100px;
+        font-size: 1.5em;
+        padding: 10px;
+    }
 
+    .card{
+        background-color: transparent;
+        box-shadow: 4px 4px 10px 0 black;
+        padding: 10px;
+    }
+    
+    .list{
+        font-size: 1.5em;
+    }
 }
