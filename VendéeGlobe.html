@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -7,16 +7,140 @@
     <!-- bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- bootstrap -->
+
+    <link rel="stylesheet" href="/eval/CSS/VendeeGlobe.css">
 </head>
 <body>
     <header class="row">
         <div class="col-3">
-            <img class="img1" src="/eval/img/Logotype_des_Sables-d’Olonne.svg.png">
+            <img class="img1" src="/eval/img/VendeeGlobe.png">
         </div> 
 
-            <h1> Le Vendée-Globe</h1>
+        <div class="col-6"></div>
         
+        <div class="col-3">
+            <button id="btnGroupDrop1" type="button" class="cnx btn btn-danger dropdown-toggle"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Connexion
+            </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">
+                  <form>
+                      <div class="form-group">
+                          <label for="Email">Identifiant</label>
+                          <input type="email" class="form-control" id="Email" 
+                          aria-describedby="emailHelp" placeholder="exemple@exp.fr">
+                      </div>
+
+                      <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1"
+                           placeholder="Password">
+                      </div>
+                      <button id='envoyer'type="submit" class="btn btn-primary">Envoyer</button>
+
+                  </form>
+              </a>
+        </div>
+
     </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/eval/LesSables.html">Acceuil</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navigation navbar-nav mr-auto">
+                    
+                        <div>
+                            <a class="navbar-brand" href="/eval/VendéeGlobe.html">Vendée-Globe</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                        </div>    
+
+                        <div>
+                            <a class="navbar-brand" href="/eval/FigaroRace.html">Le Figaro </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                        </div>
+
+                        <div>
+                            <a class="navbar-brand" href="/eval/Iron_man.html">L'Ironman</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                        </div>   
+
+                        <div>
+                            <a class="navbar-brand" href="/eval/OceanFestival.html">Océan-Festival</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                        </div>    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="txt col-8">
+            <p>
+                Le Vendée Globe est une course à la voile, autour du monde, en solitaire et sans escale et sans assistance, 
+                qui oppose des voiliers monocoques de <a href="https://fr.wikipedia.org/wiki/60_pieds_IMOCA">type 60 pieds IMOCA</a>.
+                 Parmi les courses au large existantes le Vendée Globe est considéré comme la plus difficile des épreuves 
+                 pour les marins. Elle est généralement marquée par de nombreux abandons et parfois par des tragédies ce 
+                 qui lui vaut dans la presse l'appellation d'« Everest des mers ». Les concurrents doivent en effet traverser
+                les mers les plus dures du globe (les cinquantièmes hurlants dans l'hémisphère sud), s'affronter durant trois
+                 mois ou plus sans aucune escale et mener seuls un bateau de grande taille performant mais particulièrement fatigant.<br>
+
+                 <a><img class="img2" src="/eval/img/parcour-VG.png" alt="ceci est une image de la cource"></a>
+
+                <br>Le Vendée Globe se déroule tous les quatre ans  : la neuvième édition a eu lieu en 2020 et les éditions 
+                précédentes se sont courues en 1989, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020. Son départ a lieu aux 
+                Sables-d'Olonne en Vendée (France) au mois de novembre pour que les coureurs traversent les mers les plus
+                fortes durant l'été. Le retour a lieu au même endroit trois ou quatre mois plus tard. <a href="https://fr.wikipedia.org/wiki/Armel_Le_Cl%C3%A9ac%27h">Armel Le Cléac'h </a> détient
+                 le record de cette traversée qu'il a établi durant l'édition 2016-2017 en effectuant le trajet en 74 jours,
+                  3 heures, 35 minutes et 46 secondes mais les concurrents les plus lents peuvent mettre plus de 150 jours.<br>
+                            
+                <br>La course est créée en 1989 par <a href="https://fr.wikipedia.org/wiki/Philippe_Jeantot">Philippe Jeantot</a> avec le soutien des collectivités locales du département de la Vendée. 
+                Jeantot a pour objectif de reprendre le programme du Golden Globe Challenge, une course mythique qui n'a eu lieu qu'une 
+                seule fois en 1968 et à laquelle a succédé une course par étapes la BOC Challenge. Le Vendée Globe réunit initialement une poignée
+                 de marins venus chercher une aventure hors du commun mais qui naviguent sur des voiliers sans sophistications mis au point avec 
+                 des moyens réduits. D'édition en édition la course gagne en popularité, se professionalise et attire les meilleurs régatiers 
+                 océaniques dotés de budgets croissants. Son succès reste toutefois principalement confiné aux cercles nautiques français.
+                L'architecture des voiliers 60 pieds IMOCA, qui sont par ailleurs engagés sur d'autres courses océaniques (route du Rhum, ...),
+                évolue rapidement en tirant des leçons des résultats de chaque édition. Pour améliorer leurs performances sur le Vendée Globe,
+                les architectes introduisent successivement les carènes en forme de luge, la quille pivotante, le cockpit ouvert dans lequel 
+                toutes les manœuvres sont ramenées, les dérives latérales qui sont progressivement remplacées dans les éditions suivantes par
+                les foils. La vitesse des voiliers augmente rapidement avec un temps record qui passe de 109 à 74 jours.
+            </p>
+            </div>
+        </div>
+    </main>
+    
+        <img class="img3" src="/eval/img/1989.webp">
+        <img class="img3" src="/eval/img/2020.jpg">
 
 
 
