@@ -1,0 +1,29 @@
+body {
+  background-image: url(/eval/img/sheno.jpg);
+}
+
+header .img1 {
+  width: 400px;
+}
+
+main .navbar {
+  margin: auto;
+}
+
+main .img2 {
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-bottom: 25px;
+}
+
+main h2 {
+  font-size: 2.5em;
+}
+
+main p {
+  font-size: 1.5em;
+}
+
+main ul {
+  font-size: 1.5em;
+}
