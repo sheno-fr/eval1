@@ -1,0 +1,7 @@
+user-agent: *
+
+Disallow: https://fr.wikipedia.org/
+
+
+#Sitemap 
+Sitemap: https://github.com/sheno-fr/eval1.git
